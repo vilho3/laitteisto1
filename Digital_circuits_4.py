@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-button = Pin(12, mode =Pin.IN, pull=Pin.PULL_UP)
+button = Pin(12, Pin.IN, Pin.PULL_UP)
 led1=Pin(20, Pin.OUT)
 led2=Pin(21, Pin.OUT)
 led3=Pin(22, Pin.OUT)
